@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
 
         toastBtn.setOnClickListener {
 
-//            메세지가 입력된 내용을 받아오자. → 토스트띠우는건 컴터가 기억해둬야함 → 변수를 만들어서 저장해두자
+//            메세지가 입력된 내용을 받아오자.(text속성에 적힌 값) → 토스트띠우는건 컴터가 기억해둬야함 → 변수를 만들어서 저장해두자
             val inputmessage = messageEdt.text.toString()
 
 //            토스트를 띄울 때 → 변수에 담긴 내용을 띄우자.

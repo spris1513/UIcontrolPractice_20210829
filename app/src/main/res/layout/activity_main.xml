@@ -20,7 +20,18 @@
         android:text="위에 적힌 말을 토스트로"
         android:id="@+id/toastBtn" />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/copyMessageBtn"
+        android:text="위에 적힌 메세지를 텍스트뷰에 반영" />
 
+    <TextView
+        android:id="@+id/messageTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="위에 입력한 메세지가 여기로 들어옵니다."
+        android:gravity="center" />
 
 
 </LinearLayout>
